@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#servicios a {
+
+  border-style: solid;
+  border-width: 3px;
+  background-color: transparent;
+  border-color: white;
+}
+#servicios a:hover {
+  background-color: #757575 ;
+}
+.biografia {
+  background-image: url("../images/guitar.jpg"); /* The image used */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 1.5em
+  
+}
+.images {
+  display:flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width:80%;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  
+
+}
+.images img {
+  
+}
+.imagenTitulo{
+  text-align: center;
+margin-top: 10px;
+  width: 100%;
+  
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .images {
+    display:flex;
+    flex-direction: column;
+    
+  }
+  .images img {
+    width:100vw;
+  }
+}
