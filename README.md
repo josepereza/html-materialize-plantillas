@@ -5,3 +5,6 @@ Plantillas materialize 1.0.0
 # materialize-slider
 ### slider , imagen de fondo fija y galeria de imagenes.
 ![Alt text](materialize_slider.png)
+*********************************
+# starter-navbar-transparente
+![Alt text](navbar_transp.png)
